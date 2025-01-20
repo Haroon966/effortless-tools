@@ -1,0 +1,102 @@
+/* Add any additional global styles here */
+body {
+  background-color: #ffffff; /* Adjust the background color if needed */
+  background-image: radial-gradient(circle, #ccc 1px, transparent 1px);
+  background-size: 20px 20px; /* Adjust spacing between dots */
+}
+/* From Uiverse.io by ke1221 */
+button {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #fff;
+  a {
+    color: #090909;
+    text-decoration: none;
+  }
+}
+.cta {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: royalblue;
+  cursor: pointer;
+  border: 1px solid royalblue;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+.dropdown-menu.animate {
+  animation: fadeIn 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Add any additional global styles here */
+.form {
+  background: rgba(241, 241, 241, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+#tools {
+  background-color: #ffffff;
+  background-image: linear-gradient(to right, #ccc 1px, transparent 1px),
+    linear-gradient(to bottom, #ccc 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+.nav-cus {
+  margin: 16px auto;
+  max-width: 1140px;
+  border-radius: 8px;
+  background-color: inherit;
+  border: 2px solid #ccc;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 16px;
+  z-index: 1020;
+  .navbar-brand {
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  .nav-item {
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+  }
+}
+.sticky-top {
+  top: 16px;
+}
+@media (max-width: 768px) {
+  .nav-cus {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .sticky-top {
+    top: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .sticky-top {
+    top: 0px;
+  }
+}
